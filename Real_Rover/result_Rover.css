@@ -1,0 +1,59 @@
+.img{
+    background-image: url("https://app.spacerobotcontest.com/src16-system/logo-normal.jpg");
+    background-size:auto 100%;
+    background-position: center;
+}
+
+.mask{
+    background: rgba(255,255,255,0.7);
+    min-height: 100vh;
+}
+
+span{
+    display: inline-block;
+}
+
+
+tr.over8 {
+    /* 進出チームを黄色で塗りつぶし */
+    background-color: rgba( 255, 255, 0, 0.7 );
+}
+
+tr.final {
+    /* 優勝チームを水色で塗りつぶし */
+    background-color: rgba( 20, 255, 230, 0.7 );
+}
+
+tr.redLine {
+    /* 進出ラインを赤線で表示*/
+    border-bottom: 2px solid red;
+    background-color: rgba( 255, 255, 0, 0.7 );
+}
+
+table {
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    h1.title {
+        font-size: 37px;
+    }
+
+    h1.normal{
+        word-break: normal;
+    }
+
+    p.normal{
+        word-break: normal;
+    }
+}
+
+@media screen and (min-width:400px) {
+    h1.title {
+        font-size: 40px;
+    }
+    table.qua {
+        width: 100%;
+        font-size: 25px;
+    }
+}

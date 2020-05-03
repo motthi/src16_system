@@ -1,0 +1,82 @@
+tr.over8 {
+    background-color: #ffff00;
+    background-color: rgba( 255, 255, 0, 0.7 );
+}
+
+tr.redLine {
+    border-bottom: 2px solid red;
+    background-color: rgba( 255, 255, 0, 0.7 );
+}
+
+span{
+    display: inline-block;
+}
+
+table{
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    p.bold{
+        font-size:  25px;
+    }
+
+    h1.title {
+        font-size: 37px;
+    }
+
+    h1, h2, p.normal{
+        word-break: normal;
+    }
+
+    .img{
+        background-image: url("https://app.spacerobotcontest.com/src16-system/logo-normal.jpg");
+        background-size:auto 100%;
+        background-position: center;
+        /*width :100%;*/
+    }
+
+    .mask{
+        background: rgba(255,255,255,0.7);
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width:400px) {
+    table.qua {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    div.dtable{
+        display: table;
+    }
+
+    div.dtable_c{
+        display: table-cell;
+    }
+
+    h1.title {
+        font-size: 40px;
+    }
+
+    table.tournament{
+        font-size: 30px;
+    }
+
+    p.withTime{
+        font-size: 14px;
+    }
+
+    .img{
+        background-image: url("https://app.spacerobotcontest.com/src16-system/logo-normal.jpg");
+        background-size:auto 100%;
+        background-position: center;
+        /*width :100%;*/
+    }
+
+    .mask{
+        background: rgba(255,255,255,0.7);
+        min-height: 100vh;
+    }
+}

@@ -1,0 +1,60 @@
+.img{
+    background-image: url("https://app.spacerobotcontest.com/src16-system/logo-normal.jpg");
+    background-size:auto 100%;
+    background-position: center;
+}
+
+.mask{
+    background: rgba(255,255,255,0.7);
+    min-height: 100vh;
+}
+
+span{
+    display: inline-block;
+}
+
+table{
+    width: 100%;
+}
+
+
+tr.over8 {
+    background-color: rgba( 255, 255, 0, 0.7 );
+}
+
+tr.redLine {
+    border-bottom: 2px solid red;
+    background-color: rgba( 255, 255, 0, 0.7 );
+}
+
+@media screen and (max-width:400px) {
+    h1.title {
+        font-size: 37px;
+    }
+
+    h1.normal{
+        word-break: normal;
+    }
+
+    p.normal{
+        word-break: normal;
+    }
+
+    p.bold{
+        font-size:  25px;
+    }
+}
+
+@media screen and (min-width:400px) {
+    table.qua {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    div.dtable{
+        display: table;
+    }
+    div.dtable_c{
+        display: table-cell;
+    }
+}

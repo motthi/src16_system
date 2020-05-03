@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    /*　画面サイズが400pxからはここを読み込む　*/
+    .subtotal {
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:400px) {
+    /*　画面サイズが400pxからはここを読み込む　パソコン？*/
+    .subtotal {
+    }
+}
